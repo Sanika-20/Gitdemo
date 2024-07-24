@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-07-03T16:42:28 IST" name="Default suite" finished-at="2024-07-03T16:46:35 IST" duration-ms="247237">
+    <groups>
+    </groups>
+    <test started-at="2024-07-03T16:42:28 IST" name="Default test" finished-at="2024-07-03T16:46:35 IST" duration-ms="247237">
+      <class name="Qualityqa.QA.Today">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Qualityqa.QA.Today@659499f1]" started-at="2024-07-03T16:42:28 IST" name="setup" finished-at="2024-07-03T16:42:34 IST" duration-ms="5986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigateToAmazon()[pri:1, instance:Qualityqa.QA.Today@659499f1]" started-at="2024-07-03T16:42:34 IST" name="navigateToAmazon" finished-at="2024-07-03T16:42:36 IST" duration-ms="1974" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigateToAmazon -->
+        <test-method signature="loginToAmazon(java.lang.String,java.lang.String)[pri:2, instance:Qualityqa.QA.Today@659499f1]" started-at="2024-07-03T16:42:36 IST" name="loginToAmazon" data-provider="loginData" finished-at="2024-07-03T16:42:40 IST" duration-ms="4468" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9518937126]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sanika@07]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToAmazon -->
+        <test-method signature="searchForItem(java.lang.String)[pri:3, instance:Qualityqa.QA.Today@659499f1]" started-at="2024-07-03T16:42:40 IST" name="searchForItem" data-provider="searchData" finished-at="2024-07-03T16:42:45 IST" duration-ms="4409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TV]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForItem -->
+        <test-method signature="searchForItem(java.lang.String)[pri:3, instance:Qualityqa.QA.Today@659499f1]" started-at="2024-07-03T16:42:45 IST" name="searchForItem" data-provider="searchData" finished-at="2024-07-03T16:42:47 IST" duration-ms="2453" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shoes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForItem -->
+        <test-method signature="searchForItem(java.lang.String)[pri:3, instance:Qualityqa.QA.Today@659499f1]" started-at="2024-07-03T16:42:47 IST" name="searchForItem" data-provider="searchData" finished-at="2024-07-03T16:42:50 IST" duration-ms="2610" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mobile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForItem -->
+        <test-method signature="addPhoneToCart()[pri:4, instance:Qualityqa.QA.Today@659499f1]" started-at="2024-07-03T16:42:50 IST" name="addPhoneToCart" finished-at="2024-07-03T16:42:57 IST" duration-ms="7650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPhoneToCart -->
+        <test-method signature="proceed()[pri:5, instance:Qualityqa.QA.Today@659499f1]" started-at="2024-07-03T16:42:57 IST" name="proceed" finished-at="2024-07-03T16:43:04 IST" duration-ms="6078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceed -->
+        <test-method signature="proceedToBuy()[pri:6, instance:Qualityqa.QA.Today@659499f1]" started-at="2024-07-03T16:43:04 IST" name="proceedToBuy" finished-at="2024-07-03T16:46:04 IST" duration-ms="180019" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[java.util.concurrent.TimeoutException
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3cb037145f1336107ef8732cd5d80e61, findElement {value=proceedToRetailCheckout, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\SANIKA~1.PAT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60337}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60337/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3cb037145f1336107ef8732cd5d80e61]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3cb037145f1336107ef8732cd5d80e61, findElement {value=proceedToRetailCheckout, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\SANIKA~1.PAT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60337}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60337/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3cb037145f1336107ef8732cd5d80e61
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:396)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:352)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at Qualityqa.QA.Today.proceedToBuy(Today.java:164)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:379)
+... 40 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedToBuy -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Qualityqa.QA.Today@659499f1]" started-at="2024-07-03T16:46:04 IST" name="tearDown" finished-at="2024-07-03T16:46:35 IST" duration-ms="31540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Qualityqa.QA.Today -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
